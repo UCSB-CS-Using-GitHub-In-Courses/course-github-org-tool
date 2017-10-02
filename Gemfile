@@ -6,6 +6,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'thor', '0.19.1'
@@ -20,12 +21,15 @@ group :development do
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap-sass'
+gem 'delayed_job_active_record'
 gem 'high_voltage'
 gem 'omniauth'
 gem 'omniauth-github'
 gem 'omniauth-gitlab'
 gem 'pg'
 gem 'octokit', '~> 4.0'
+gem 'github_webhook', '~> 1.0.4'
+
 gem 'rails-settings-cached'
 gem 'roo'
 gem 'font-awesome-rails'
